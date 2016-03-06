@@ -16,8 +16,24 @@ namespace BestPictureViewerEVAR
         public Form1()
         {
             InitializeComponent();
-            //this.WindowState = FormWindowState.Maximized;
-            
+
+            /*
+             * Checks to see if the program was called from the command line and if it was called to open a file.
+             * This will be important when using this as a default program.
+             */
+            string[] args = Environment.GetCommandLineArgs();
+            if (args.Length != 1)
+            {
+                Image = new Bitmap(args[1]);
+                pictureBox.Height = Image.Height;
+                pictureBox.Width = Image.Width;
+                this.Height = Image.Height;
+                this.Width = Image.Width;
+
+                pictureBox.Image = Image;
+            }
+
+            //Sets the initial folder directory and some file type filtering for the open file dialog.
             openFileDialog1.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
             openFileDialog1.Filter = "Image Files(*.png; *.jpg; *.jpeg; *.gif; *.tiff; *.bmp))|*.png; *.jpg; *.jpeg; *.gif; *.tiff; *.bmp|All files (*.*)|*.*";
         }
@@ -36,7 +52,7 @@ namespace BestPictureViewerEVAR
                 Image      = new Bitmap(filePath);
                 pictureBox.Height = Image.Height;
                 pictureBox.Width  = Image.Width;
-                this.Height       = Image.Height;
+                this.Height       = Image.Height + 24;
                 this.Width        = Image.Width;
 
                 pictureBox.Image  = Image;
@@ -46,6 +62,8 @@ namespace BestPictureViewerEVAR
         private void Form1_Resize(object sender, EventArgs e)
         {
             int xCenter, yCenter;
+
+            //If the window is maximized this calculates where on the screen the photo should be placed.
             if (this.WindowState == System.Windows.Forms.FormWindowState.Maximized)
             {
                 pictureBox.Height = Image.Height;
@@ -57,7 +75,7 @@ namespace BestPictureViewerEVAR
             else
             {
                 pictureBox.Location = new Point(0, 24);
-                pictureBox.Height = this.Height;
+                pictureBox.Height = this.Height - 24;
                 pictureBox.Width = this.Width;
             }
         }

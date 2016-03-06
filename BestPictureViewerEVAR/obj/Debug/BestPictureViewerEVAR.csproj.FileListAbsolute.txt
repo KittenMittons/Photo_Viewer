@@ -7,3 +7,12 @@ C:\Users\cheap_000\Documents\Code\C#\BestPictureViewerEVAR\BestPictureViewerEVAR
 C:\Users\cheap_000\Documents\Code\C#\BestPictureViewerEVAR\BestPictureViewerEVAR\obj\Debug\BestPictureViewerEVAR.csproj.GenerateResource.Cache
 C:\Users\cheap_000\Documents\Code\C#\BestPictureViewerEVAR\BestPictureViewerEVAR\obj\Debug\BestPictureViewerEVAR.exe
 C:\Users\cheap_000\Documents\Code\C#\BestPictureViewerEVAR\BestPictureViewerEVAR\obj\Debug\BestPictureViewerEVAR.pdb
+C:\Users\cheap_000\Documents\Code\C#\Photo_Viewer\BestPictureViewerEVAR\bin\Debug\BestPictureViewerEVAR.exe.config
+C:\Users\cheap_000\Documents\Code\C#\Photo_Viewer\BestPictureViewerEVAR\obj\Debug\BestPictureViewerEVAR.exe
+C:\Users\cheap_000\Documents\Code\C#\Photo_Viewer\BestPictureViewerEVAR\obj\Debug\BestPictureViewerEVAR.pdb
+C:\Users\cheap_000\Documents\Code\C#\Photo_Viewer\BestPictureViewerEVAR\bin\Debug\BestPictureViewerEVAR.exe
+C:\Users\cheap_000\Documents\Code\C#\Photo_Viewer\BestPictureViewerEVAR\bin\Debug\BestPictureViewerEVAR.pdb
+C:\Users\cheap_000\Documents\Code\C#\Photo_Viewer\BestPictureViewerEVAR\obj\Debug\BestPictureViewerEVAR.csprojResolveAssemblyReference.cache
+C:\Users\cheap_000\Documents\Code\C#\Photo_Viewer\BestPictureViewerEVAR\obj\Debug\BestPictureViewerEVAR.Form1.resources
+C:\Users\cheap_000\Documents\Code\C#\Photo_Viewer\BestPictureViewerEVAR\obj\Debug\BestPictureViewerEVAR.Properties.Resources.resources
+C:\Users\cheap_000\Documents\Code\C#\Photo_Viewer\BestPictureViewerEVAR\obj\Debug\BestPictureViewerEVAR.csproj.GenerateResource.Cache

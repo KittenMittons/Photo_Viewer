@@ -51,8 +51,8 @@
             this.pictureBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pictureBox.Location = new System.Drawing.Point(0, 24);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(284, 239);
-            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox.Size = new System.Drawing.Size(284, 238);
+            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox.TabIndex = 1;
             this.pictureBox.TabStop = false;
             // 
